@@ -1,109 +1,381 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-   <title>Delnia Alipour</title>
-   
-  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
-  <meta name="theme-color" content="#317EFB" />
+    <meta charset="UTF-8">
+    <title>Delnia Alipour</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <meta name="theme-color" content="#317EFB" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="the personal webpage of Delniya Alipour, Author: A.N. Author">
-    <meta charset="utf-8" />
+    <meta name="description" content="the personal webpage of Delniya Alipour, Author: D.A Alipour>
+    <meta charset=" utf-8" />
 </head>
+
 <body>
-        <main>
-            <header id="header" class="c-site-header">
-                <nav aria-label="Main Site Links.">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="#home">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-           
-                <section id="home" class="home-section">
-                    <div class="home-text">
-                        <h1> Hi, I am Delnia</h1>
-                        <h2>Welcome to my website</h2>
-                        <p>I am a Freelance web developer</p>
-                        <p>For more about me read <a href="#about">here.</a></p>
-                    </div>
-                    <div class="home-img">
-                        <img src="https://DelniaAlipour.github.io/image/dllla.jpg" title="" alt="photo of Delnia">
-                        <!-- <img src="dllla.jpg" title="" alt="photo of Delnia">-->
+    <main>
+        <header id="header" class="c-site-header">
+            <nav aria-label="Main Site Links.">
+                <ul class="nav-list" id="menuList">
+                    <li>
+                        <a class="active" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="home-banner-area">
+
+
+            <div class="row fullscreen d-flex align-items-center" style="height: 635px;">
+                <div class="banner-content col-lg-6 col-md-12 justify-content-center ">
+                    <div class="me wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 1.2s; animation-name: fadeInDown;">
+                        It's me
 
                     </div>
-                </section>
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 1.7s; animation-name: fadeInUp;">
+                        Delnia Alipour</h1>
+                    <div class="designation mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 2.1s; animation-name: fadeInUp;">
+                        Web Developer
 
-                <section id="about" class="about-section">
-                    <div class="about-text">
-                        <h3>More about me...</h3>
-                        <p>
-                            My full name is Delnia Alipour, I orginally come from Kurdistan, Iran.
-                             currently I am living in Scotland.
-                        </p>
-                        <p>I have a master of Computer Science. my specification is in Computer Networks. I have worked in both Iran and Iraq country in my field. i have plan to pursue my studies in UK for PHD. </p>
-                        <p>
-                            if want tell you about my hobbies, Hiking is what I have a great passion for, because it puts me in good mood and helps me to become calm and forget about all my problems and stress that I have to deal with on a daily basis.
-                        </p>
-                         </div>
-                        <div class="about-img">
-                            <img src="https://DelniaAlipour.github.io/image/dlla2.jpg" title="" alt="photo of Delnia">
-                        </div>
-                       
-</section>
-                <section  id="projects" class="projects-section">
-                    <h3 class="projects-section-header">There are some of my projects</h3>
+                    </div>
+                    <a href="#" class="primary-btn" data-text="Hire Me">
+                        <span>H</span>
+                        <span>i</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span> </span>
+                        <span>M</span>
+                        <span>e</span>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="home-img">
+                <img src="https://DelniaAlipour.github.io/image/dlnyaaa.png" title="" alt="photo of Delnia">
+                <!-- <img src="dllla.jpg" title="" alt="photo of Delnia">-->
+
+            </div>
+
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-text">
+                <h3>More about me...</h3>
+                <p>
+                    Welcome to my Webpage. My name is Delnia, I'm from 
+                    Kurdistan, Iran. I have been living in Glasgow for seven months. I graduated with my Bachelor of Science, major in computer science in 2012. I received my Master's in Computer Networks in 2018. Currently, I am a trainee at CodeYourFuture, Which is an opportunity to practice what I know, learn new skills, and get a job in the Tech industry in the UK.
+                </p>
+                <p>
+                    I'll be looking for a job come December as Web Developer.
+                </p>
+
+                <p>
+                    If want tell you about my hobbies, Hiking is what I have a great passion for, it puts me in
+                    good mood and helps me to become calm and forget about all my problems and stress that I have to
+                    deal with on a daily basis.
+                </p>
+
+            </div>
+            <div class="about-img">
+                <img src="https://DelniaAlipour.github.io/image/dlla2.jpg" title="" alt="photo of Delnia">
+            </div>
+
+
+
+        </section>
+        <section id="projects" class="projects-section">
+            <h3 class="projects-section-header">There are some of my projects</h3>
+            <div id="three-acitvity" data-wow-duration="1s" data-wow-delay="2s"
+                style="visibility: visible; animation-duration: 1.4s; animation-delay: 2s; animation-name: fadeInUp; padding-top: 60px;">
+                <div class="activity-part">
+
+
+                    <a href="https://hometownsaghez.netlify.app/"> <img
+                            src="https://DelniaAlipour.github.io/image/SaqqezPark.jpg">
+
+                        <h4 style="font-size: 17px;
+                        color: #777777;">Hometown Project</h4>
+                    </a>
+
+
+
+                </div>
+                <div class="activity-part">
+
+                    <a href="https://digital-business-card-delnia.netlify.app/"> <img
+                            src="https://DelniaAlipour.github.io/image/BS.jpg">
+                        <h4 style="font-size: 17px;
+                        color: #777777;"> Digital Business Card</h4>
+                    </a>
+
+                </div>
+                <div class="activity-part">
                     <div class="project-lists">
-                    <iframe title="My projects" id="video"
-                         
-                           src="https://www.youtube.com/embed/Kch8n4tcOZQ" allowfullscreen>
-                           </iframe>
+                        <iframe title="My projects" id="video" src="https://www.youtube.com/embed/Kch8n4tcOZQ"
+                            allowfullscreen style="width: 300px;height:300px;  border-radius: 4px;">
+                        </iframe>
+                        <a href="https://www.youtube.com/embed/Kch8n4tcOZQ">
+                            <h4 style="font-size: 17px;
+                            color: #777777;">Upcoming Project</h4>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- image coursul -->
+        <section id="cyfproject" class="cyf-project"style="margin-top: 60px;">
+            <h3 class="cyfheader" style="text-align: center;">CYF Block Projects</h3>
+            <div style="display: flex; margin:80px;justify-content:space-around;">
+                <div id="earningandexpense" style="background-color:#f9f9ff; width: 35%;" >
+                    <h5 style="text-align: center; padding-top: 40px; padding-bottom: 30px;">Earnings and Expenses</h5>
+                    
+                                        <div id="container" style=" font-size: 20px;  margin-left: 60px;">
+                                            <button id="btn" style="border-radius: 5px; padding: 8px; margin-bottom: 30px;"> Show Result</button>
+                                            <input id="numbers" style="border-radius:5px ; padding: 8px;"  placeholder="Inputs"/>
+                                            <p>Earnings: <span id="ern_total"> </span> </p>
+                                            <ul id="earning"> </ul>
+                                            <p>Expenses: <span id="exp_total"> </span> </p>
+                                            <ul id="expense"> </ul>
+                                            <p>Balance: <span id="balance"> </span> </p>
+                                           
+                                        </div>
+                                       
+                                    </div>
+                <div id="cyfblockimg" style="background-color: #f9f9ff; width: 35%;">
+                    <h5 style="text-align: center; padding-top: 40px;">Kurdistan Nature</h5>
+                        <div id="buttons" style=" padding: 10px;
+    display: flex; 
+    justify-content: center;
+     align-items: center; ">
+                            <button id="previous" class="btn" style="border: none;margin-right: 4px;"> Previous
+                                <button id="next" class="btn" style="border: none;"> Next </button>
+                            </button>
                         </div>
-                </section>
-            
+                        <div id="container" style="display:flex;
+    margin: 0 auto;">
+                            <figure style=" border: 1px #cccccc solid;
+      padding: 4px;
+      margin: 0 auto;">
+                                <img id="image" style="width:400px;
+    height:300px;" />
+                                <figcaption id="caption" style="  background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
+      font-size: 15px;;
+    "> </figcaption>
+                            </figure>
 
-                <section id="contact" class="contact-section">
-                    <div class="contact-section-header">
-                        <h3>Get in touch...</h3>
-                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
-                    </div>
-                    <div class="contact-links">
-                        <a href="https://facebook.com/freecodecamp"
-                           target="_blank"
-                           class="btn contact-details"><i class="fab fa-facebook-square"></i>Facebook</a>
-                        <a id="profile-link"
-                           href="https://github.com/freecodecamp"
-                           target="_blank"
-                           class="btn contact-details"><i class="fab fa-github"></i>GitHub</a>
-                        <a href="https://twitter.com/freecodecamp"
-                           target="_blank"
-                           class="btn contact-details"><i class="fab fa-twitter"></i>Twitter</a>
-                        <a href="/cdn-cgi/l/email-protection#4e2b362f233e222b0e2b362f233e222b602d2123" class="btn contact-details"><i class="fas fa-at"></i>Send a mail</a>
-                        <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i>Call me</a>
-                    </div>
-                </section>
+                        </div>
+                </div>
+         
 
-                <footer class="c-site-footer">
-                    <ul>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <span>Copyright 2022, Delnia Alipour</span>
-                </footer>
-            
-        </main>
+
+            </div>
+
+            <!---->
+
+
+        </section>
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-control">
+                <div class="contact-links">
+                    <h5 style="padding-bottom: 20px;">Contact Me</h5>
+                    <a href="https://facebook.com" target="_blank" class="btnn contact-details"><i
+                            class="fab fa-facebook-square"></i>Facebook</a>
+                    <a id="profile-link" href="https://github.com" target="_blank"
+                        class="btnn contact-details"><i class="fab fa-github"></i>GitHub</a>
+                    <a href="https://twitter.com" target="_blank" class="btnn contact-details"><i
+                            class="fab fa-twitter"></i>Twitter</a>
+                    <a href="/cdn-cgi/l/email-protection#4e2b362f233e222b0e2b362f233e222b602d2123"
+                        class="btnn contact-details"><i class=" fab fas fa-at"></i>Send a mail</a>
+                    <a href="tel:" class="btnn contact-details"><i class=" fab fas fa-mobile-alt"></i>Call me</a>
+                </div>
+                <style>
+                   
+                </style>
+                <div class="comment-area">
+                    <h5 style="padding-bottom: 20px;"> Comments</h5>
+                    <form class="form-area " id="myForm">
+                      
+                            <div class="form-group-top">
+
+                                <input name="name" placeholder="Enter your name" type="text" class="form-control">
+
+                                <input name="email" placeholder="Enter email address"
+                                    pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" type="email"
+                                    class="form-control">
+
+                            </div>
+                            <div class="form-textarea">
+                                <textarea id="textareacmt" class="common-textarea form-control" name="message"
+                                    placeholder="Type your comment..." required=""></textarea>
+                            </div>
+                            <div><button id="submit" class="primary-btn-sub" data-text="submit Comment">
+                                  Comment
+                                </button>
+                            </div>
+        
+                    </form>
+                    <ul id="list"></ul>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <footer class="c-site-footer">
+
+            <span>Copyright 2022, Delnia Alipour</span>
+        </footer>
+
+    </main>
 </body>
+<script>
+    var images, captions;
+
+
+    images = ['https://upload.wikimedia.org/wikipedia/commons/f/f5/Greater_Zab_River_near_Erbil_Iraqi_Kurdistan.jpg', 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hawraman_in_Iran_by_Mardetanha_%281%29_05.jpg/1024px-Hawraman_in_Iran_by_Mardetanha_%281%29_05.jpg', 'https://images.unsplash.com/photo-1658219986909-f753bacffbc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1878&q=80', 'https://images.unsplash.com/photo-1653337164866-6a84baa0e199?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80', 'https://images.unsplash.com/photo-1658932886768-6c7a0608a5e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1278&q=80', 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Abidar_winter.jpg', 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Miyane_village.jpg/1280px-Miyane_village.jpg'];
+    captions = ['Greater Zab River near Erbil', 'Hawraman Village', ' Bradost Mountain, Erbil', 'Halgurd Mountain', 'Blue water, Diraluk', 'Awyar, Sine', 'Miyane Village'];
+
+    'https://images.unsplash.com/photo-1527615020922-3c670eed3407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
+
+    let element_image = document.getElementById('image');
+    element_image.setAttribute("src", images[0]);
+    let element_caption = document.getElementById('caption');
+    element_caption.innerText = captions[0];
+
+
+    document.getElementById('next').addEventListener('click', (event) => {
+        images.push(images.shift());
+        let element_image2 = document.getElementById('image');
+        element_image2.setAttribute("src", images[0]);
+        captions.push(captions.shift());
+        let element_caption2 = document.getElementById('caption');
+        element_caption2.innerText = captions[0];
+
+    });
+
+    document.getElementById('previous').addEventListener('click', (event) => {
+        images.unshift(images.pop());
+        let element_image3 = document.getElementById('image');
+        element_image3.setAttribute("src", images[0]);
+        captions.unshift(captions.pop());
+        let element_caption3 = document.getElementById('caption');
+        element_caption3.innerText = captions[0];
+
+    });
+
+
+
+    //earning
+  
+
+    var userNumber, earnings, expenses, overal;
+
+// Describe this function...
+function show_Earning_and_Expense() {
+  if(--window.LoopTrap <= 0) throw "Infinite loop.";
+  overal.unshift(userNumber);
+  if (userNumber > 0) {
+    earnings.unshift(userNumber);
+    let element_earning = document.getElementById('earning');
+    let new_li = document.createElement('li');
+    new_li.innerText = userNumber;
+
+    element_earning.appendChild(new_li);
+    let element_ern_total = document.getElementById('ern_total');
+    element_ern_total.innerText = earnings.reduce((a,b) => a+b, 0);
+  }
+  if (userNumber < 0) {
+    expenses.unshift(userNumber);
+    let element_expense = document.getElementById('expense');
+    let new_li2 = document.createElement('li');
+    new_li2.innerText = userNumber;
+
+    element_expense.appendChild(new_li2);
+    let element_exp_total = document.getElementById('exp_total');
+    element_exp_total.innerText = expenses.reduce((a,b) => a+b, 0);
+  }
+  let element_balance = document.getElementById('balance');
+  element_balance.innerText = overal.reduce((a,b) => a+b, 0);
+}
+
+function getNumberOrString(value) {
+  // Convert a string value to a number if possible
+  let number_value = Number(value);
+  if (Number.isNaN(number_value)) {
+    return value
+  } else {
+    return number_value
+  }
+}
+
+
+earnings = [0, 0, 0];
+expenses = [0, 0, 0];
+overal = [0, 0, 0];
+
+
+document.getElementById('btn').addEventListener('click', (event) => {
+  userNumber = getNumberOrString(document.getElementById('numbers').value);
+  show_Earning_and_Expense();
+
+});
+
+//comment
+
+document.getElementById('submit').addEventListener('click', (event) => {
+  let element_list = document.getElementById('list');
+  let new_li = document.createElement('li');
+  new_li.innerText = getNumberOrString(document.getElementById('textareacmt').value);
+
+  element_list.appendChild(new_li);
+
+});
+
+    $('li a').click(function () {
+        $('#menuList li a').removeClass('active inactive');
+        $('#menuList li a').addClass('inactive');
+        $(this).removeClass("inactive");
+        $(this).addClass("active");
+    });
+
+</script>
+
+
 </html>
