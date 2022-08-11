@@ -345,12 +345,7 @@ a {
     border-radius: 6px;
 }
 
-@media (max-width: 30.625em) {
-    .projects-section {
-        padding: 6rem 1rem;
-        display: flex;
-    }
-}
+
 
 
 
@@ -358,11 +353,6 @@ a {
     color:#777777;
     font-size: 17px;
  
-}
-
-#three-acitvity {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .img-container img {
@@ -389,6 +379,7 @@ a {
     margin: 1rem auto 3rem auto;
     border-bottom: 4px solid #e45447;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 
