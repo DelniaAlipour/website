@@ -324,8 +324,8 @@ a {
 }
 
 .about-text h3 {
-    font-size: 45px;
-    font-weight: 700;
+ 
+   
     color: black;
     max-width: 640px;
     margin: 0 auto 3rem auto;
@@ -352,17 +352,8 @@ a {
     }
 }
 
-.img-container {
-    width: 33.3%;
-    padding: 10px;
 
-}
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 .projects-section h4{
     color:#777777;
     font-size: 17px;
