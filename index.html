@@ -22,21 +22,26 @@
 <body>
     <main>
         <header id="header" class="c-site-header">
-            <nav aria-label="Main Site Links.">
+            <nav class="navbar"aria-label="Main Site Links.">
                 <ul class="nav-list" id="menuList">
-                    <li>
-                        <a class="active" href="#home">Home</a>
+                    <li class="nav-item">
+                        <a class="active nav-link" href="#home">Home</a>
                     </li>
-                    <li>
-                        <a href="#about">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li>
-                        <a href="#projects">Projects</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li>
-                        <a href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </header>
 
@@ -376,8 +381,25 @@
         $(this).removeClass("inactive");
         $(this).addClass("active");
     });
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-list");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
 
 
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
 </script>
 
 
